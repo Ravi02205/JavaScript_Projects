@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #393e46;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+p{
+    color:#00adb5;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 540;
+}
+input{
+    position: absolute;
+    bottom: 40px;
+    background-color: #00adb5;
+    border: none;
+    height: 50px;
+    width: 80px;
+    color: white;
+    padding:10px;
+    font-size:30px ;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #111;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+}

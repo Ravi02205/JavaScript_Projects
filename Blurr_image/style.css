@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content:center ;
+    height: 100vh;
+}
+#container{
+    height: 100vh;
+    width: 100vw;
+    background: url('https://images.unsplash.com/flagged/photo-1583830749325-40c316cea28e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUzfHxjaG9jb2xhdGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
+    position: relative;
+    /* filter: blur(10px); */
+}
+#txt{
+    position: absolute;
+    top:48%;
+    left: 48%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
