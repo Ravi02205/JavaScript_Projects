@@ -11,7 +11,7 @@ body{
     overflow: hidden;
     margin:0;
 }
-
+ 
 .container{
     display: flex;
     align-items: center;
@@ -44,5 +44,4 @@ body{
     margin-bottom: 10px;
     font-weight: bold;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   
 }

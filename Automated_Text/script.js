@@ -1,8 +1,9 @@
 const text=document.getElementById('text');
 const sped=document.getElementById('speed');
 const txt="Hey! How you doinn???"
+// const txt= text.value;
 let id=1;
-let speed=270 / sped.value;
+let speed = 270 / sped.value;
 
 WriteNext();
 var o=0;
@@ -22,8 +23,9 @@ function WriteNext(){
             o=0;
         }
     }
+    console.log(speed);
     setTimeout(WriteNext,speed);
+
 }
 
-sped.addEventListener('input', (e) => {speed = 300 / e.target.value; 
-    console.log(e.target);})
+sped.addEventListener('input', (e) => {speed = 300 / e.target.value});

@@ -15,7 +15,7 @@ for(let i=0;i<500;i++){
     cont.appendChild(square);
 }
  
-function setColor(ele){
+function setColor(ele){ 
     const color=getRandomColor();
     ele.style.background=color;
     ele.style.boxShadow =`0 0 2px ${color},0 0 7px ${color}`;
