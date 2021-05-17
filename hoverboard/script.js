@@ -1,6 +1,9 @@
-const cont =document.getElementById('container');
-const msg=document.getElementById('msg');
+const cont = document.getElementById('container');
+
+const msg = document.getElementById('msg');
+
 const color=['#ff8888','#ffdda8','#f9ff93','#d5ffb5','#b3fdff'];
+
 const SQUARES = 500;
 
 msg.style.background='#ff8888';
@@ -14,7 +17,7 @@ for(let i=0;i<500;i++){
     setInterval('setColor(msg)',2000);
     cont.appendChild(square);
 }
- 
+
 function setColor(ele){ 
     const color=getRandomColor();
     ele.style.background=color;

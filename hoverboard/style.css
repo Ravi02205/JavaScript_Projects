@@ -37,9 +37,10 @@ body{
 .main{
     text-align: center;
 }
+
 .msg{
-    transition: 0.2s ease;
-    color:#111;
+    transition: 2s ease;
+    color:white;
     font-size: 1.7rem;
     margin-bottom: 10px;
     font-weight: bold;
