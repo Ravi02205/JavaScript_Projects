@@ -2,7 +2,7 @@ body,html{
     margin: 0;
     padding: 0;
 }
-
+ 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body{
 }
 
 #main{
-    border: 2px solid ;
+    box-shadow: 0 0 5px grey;
     border-radius: 15px;
     height: 80vh;
     width: 47vh;
@@ -25,21 +25,26 @@ body{
     text-align: center;
     flex-direction: column;
 }
-
+#main:hover{
+    border: none;
+    box-shadow: 0 0 20px grey;
+}
 input{
     outline: none;
     border-radius: 7px;
     border-style: none;
     width: 15vw;
     height: 4vh;
+    padding: 7px 15px;
 }
 #btn{
-    width: 2vw;
-    height: 4.5vh;
+    width: 2.5vw;
+    height: 6vh;
     background-color: antiquewhite;
     outline: none;
     border: none;
     border-radius: 10px;
+    padding: 7px;
 }
 
 h1{
@@ -48,7 +53,7 @@ h1{
 }
 
 #para{
-    width: 18vw;
+    width: 20vw;
     height: 4.5vh;
     background-color: antiquewhite;
     border: 1px solid blanchedalmond;

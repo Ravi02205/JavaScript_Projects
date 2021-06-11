@@ -1,12 +1,13 @@
 const rst=document.getElementById('reset');
 const stp=document.getElementById('stop');
 const strt=document.getElementById('start');
-
+ 
 const min=document.getElementById('min');
 const sec=document.getElementById('sec');
 const hour=document.getElementById('hour');
+
 let a;
-let m=0;
+let m=0; 
 let mils=0;
 let h=0;
 let j=0;
@@ -17,7 +18,10 @@ function start(){
     mils++;
     if(mils==100){
         m++;
-        min.innerText=m;
+        if(m<=9){
+            min.innerText='0' + m;
+        }else{
+        min.innerText=m;}
         mils=0;
     }
     if(m==60){
@@ -25,9 +29,13 @@ function start(){
         hour.innerText=h;
         m=0;
     }
-    sec.innerHTML=mils;
-    min.innerHTML=m;
-    hour.innerHTML=h;
+    if(mils<=9){
+        sec.innerText='0' + mils;
+    }else{
+    sec.innerText=mils;}
+    // sec.innerHTML=mils;
+    // min.innerHTML=m;
+    // hour.innerHTML=h;
 }
 
 function stop(){

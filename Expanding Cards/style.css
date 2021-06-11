@@ -56,7 +56,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  transition: flex 0.3s ease;
+  transition: flex 0.8s ease;
 }
 
 .active {
